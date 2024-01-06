@@ -1,5 +1,6 @@
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Arial, sans-serif, Inherit,  */
     background-color: #5e43a7;
     color: white;
     margin: 0;
@@ -109,24 +110,16 @@ p {
     text-align: left;
 }
 
-.section {
-    background-color: #5e43a7; /* Default background color */
-    opacity: 0.5; /* Dull non-focused sections */
-    transition: opacity 0.1s; /* Smooth transition for focus effect */
-    min-height: 100vh; /* Full height of the viewport */
-    width: calc(100vw - 200px); /* Full width of the viewport minus the left pane width */
-    margin-left: -50px; /* Offset for the left pane */
-    box-sizing: border-box; /* Include padding and borders in the element's total width and height */
-    padding: 20px; /* Add some padding */
+.about-me-text div {
+    margin-top: 90px; /* Adjust this value as needed for desired spacing */
 }
 
-.section:nth-child(even) {
-    background-color: #4849a2; /* Alternate background color */
+.svg-logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
 }
 
-.section.active {
-    opacity: 1; /* Focused section is fully opaque */
-}
 
 /* Timeline */
 .timeline {
